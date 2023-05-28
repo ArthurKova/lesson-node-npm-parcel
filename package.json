@@ -1,0 +1,24 @@
+{
+  "name": "node-npm-parcel-lesson",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArthurKova/lesson-node-npm-parcel.git"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "homepage": "https://github.com/ArthurKova/lesson-node-npm-parcel",
+  "dependencies": {
+    "joi": "^17.2.1",
+    "shortid": "^2.2.15"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  }
+}
